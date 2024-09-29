@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Con Html y Css</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div>
+      <h1>Este es mi primer proyecto con html,css y js.</h1>
+      <br><br><br><br>
+    </div>
+    <div class="container">
+      <div class="Calculadora">
+        <div class="display">
+          <!-- Este es el valor del dato superior de la calculadora -->
+          <div  class="valor-superior"data-valor-superior></div>
+          <!-- Este es el valor del dato inferior de la calculadora  -->
+          <div  class="valor-inferior"data-valor-inferior></div>
+        </div>
+        <!--Este es para borrar todo (AC) -->
+        <button class="span2" data-Borrar-todo>AC</button>
+        <!-- Este boton sirve para borrar uno por uno de los números -->
+        <button data-borrar>DEL</button>
+        <!-- los Data con operadores son sumas, restas, multiplicaciones y 
+        divisiones -->
+        <button data-operador >/</button>
+        <button data-Numero>1</button>
+        <!-- Los datas  numeros son botones con numeros -->
+        <button data-Numero>2</button>
+        <button data-Numero>3</button>
+        <button data-operador>*</button>
+        <button data-Numero>4</button>
+        <button data-Numero>5</button>
+        <button data-Numero>6</button>
+        <button data-operador>+</button>
+        <button data-Numero>7</button>
+        <button data-Numero>8</button>
+        <button data-Numero>9</button>
+        <button data-operador>-</button>
+        <button data-Numero>.</button>
+        <button data-Numero>0</button>
+        <button data-Igual>=</button>
+        <script src="scripts.js"></script>
+      </div>
+    </div>
+  </body>
+</html>

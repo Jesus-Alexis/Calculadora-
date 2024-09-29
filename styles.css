@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/diseno-papel-carta-blanco-blanco_53876-118304.jpg?w=740&t=st=1727581272~exp=1727581872~hmac=f5f7b1f3717686e21551a918834505b34922a2432166363c5a3f9df321313fe7);
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.Calculadora{
+width: 450px;
+height: 600px;
+background-color:#6d6767;
+display: grid;
+grid-template-columns: repeat(4,80px);
+grid-template-rows: 130px repeat(6,80px);
+justify-content: center;
+border-radius: 20px;
+padding-top: 20px;
+}
+        
+
+.Calculadora button{
+ font-size: 1.5rem;
+ background-color:white;
+ border-radius: 30%;
+ border: 2px #22222233 solid;
+ margin: 2px;
+}
+
+.display{
+ width: 320px;
+ height: 120px;
+ background-color: #2b2b2bee;
+ border-radius: 5%;
+ opacity: .8;
+ grid-column: 1/-1;
+ border: 2px #22222233 solid;
+ text-align: end;
+ display: 10px 0;
+ padding: 10px 0;
+}
+
+.Calculadora button:hover{
+    background-color: silver;
+}
+
+.span2{
+    grid-column: span 2;
+}
+
+
+.valor-superior{
+ color: whitesmoke;
+ font-size: 1rem ;
+ margin-top: 30px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.valor-inferior{
+    color:whitesmoke;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;  
+}
